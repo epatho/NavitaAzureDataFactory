@@ -1,0 +1,39 @@
+{
+	"name": "SourceDataset_DEMAND_Courve",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceAzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "DEMAND curve.xlsx",
+				"container": "navitest"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Date",
+				"type": "String"
+			},
+			{
+				"name": "Start",
+				"type": "String"
+			},
+			{
+				"name": "End",
+				"type": "String"
+			},
+			{
+				"name": "Value",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

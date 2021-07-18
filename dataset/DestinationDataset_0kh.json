@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_0kh",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DestAzureTableStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "NaviTable2"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

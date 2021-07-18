@@ -1,0 +1,9 @@
+{
+	"name": "NavitaLoad",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8a0b746a-3919-4bd5-9074-027ae0244b88",
+		"tenantId": "a2972fb3-4400-44dc-a1cd-c60c57d5dc71"
+	}
+}
